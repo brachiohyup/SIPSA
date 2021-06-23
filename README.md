@@ -8,6 +8,7 @@ This is the official repository of "SIPSA-Net: Shift-Invariant Pan Sharpening wi
 
 We provide the training code without the WorldView-3 dataset. If you find this repository useful, please consider citing our paper.
 
+https://openaccess.thecvf.com/content/CVPR2021/papers/Lee_SIPSA-Net_Shift-Invariant_Pan_Sharpening_With_Moving_Object_Alignment_for_Satellite_CVPR_2021_paper.pdf
 
 
 
