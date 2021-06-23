@@ -4,6 +4,14 @@
 
 **CVPR2021 Oral Accepted.**
 
+This is the official repository of "SIPSA-Net: Shift-Invariant Pan Sharpening with Moving Object Alignment for Satellite Imagery", CVPR 2021 oral paper.
+
+We provide the training code without the WorldView-3 dataset. If you find this repository useful, please consider citing our paper.
+
+
+
+
+
 Abstract: 
 Pan-sharpening is a process of merging a highresolution (HR) panchromatic (PAN) image and its corresponding low-resolution (LR) multi-spectral (MS) image to create an HR-MS and pan-sharpened image. However, due to the different sensors’ locations, characteristics and acquisition time, PAN and MS image pairs often tend to have various amounts of misalignment. Conventional deeplearning-based methods that were trained with such misaligned PAN-MS image pairs suffer from diverse artifacts such as double-edge and blur artifacts in the resultant PANsharpened images. In this paper, we propose a novel framework called shift-invariant pan-sharpening with moving object alignment (SIPSA-Net) which is the first method to take into account such large misalignment of moving object regions for PAN sharpening. The SISPA-Net has a feature alignment module (FAM) that can adjust one feature to be aligned to another feature, even between the two different PAN and MS domains. For better alignment in pansharpened images, a shift-invariant spectral loss is newly
 designed, which ignores the inherent misalignment in the original MS input, thereby having the same effect as optimizing the spectral loss with a well-aligned MS image. Extensive experimental results show that our SIPSA-Net can generate pan-sharpened images with remarkable improvements in terms of visual quality and alignment, compared to
